@@ -29,9 +29,10 @@ switch (command) {
 		break;
 	case undefined:
 		console.log(
-			`Discord Large-File-Storing Utility Thing v1\n` +
+			`Discord Large-File-Storing Utility Thing\n` +
 			`To upload a file: ${process.argv.slice(0,2).join(' ')} upload <path>\n` +
-			`To download a file: ${process.argv.slice(0,2).join(' ')} download <code>`
+			`To download a file: ${process.argv.slice(0,2).join(' ')} download <code>` +
+			`To delete a file you uploaded: ${process.argv.slice(0,2).join(' ')} delete <code>`
 		);
 		process.exit();
 		break;
