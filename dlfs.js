@@ -31,7 +31,7 @@ switch (command) {
 		console.log(
 			`Discord Large-File-Storing Utility Thing\n` +
 			`To upload a file: ${process.argv.slice(0,2).join(' ')} upload <path>\n` +
-			`To download a file: ${process.argv.slice(0,2).join(' ')} download <code>` +
+			`To download a file: ${process.argv.slice(0,2).join(' ')} download <code>\n` +
 			`To delete a file you uploaded: ${process.argv.slice(0,2).join(' ')} delete <code>`
 		);
 		process.exit();
